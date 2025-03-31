@@ -27,12 +27,35 @@ Agile Manifesto (4 items) -> 12 Principles of Agile Software -> Multiple Methods
 # Inverting the Triangle
 In Traditional project mgmt, Scope is fixed, Time and Cost vary. In Agile, Time and Cost are fixed, scope vary. With time and cost fixed, Agile forces you to focus on delivering the most valuable features to your customers. 
 
-# Data Points
+# Agile Methods
+## Scrum
+1. Product Owner - Designated person that represents the customer on the project. Defines & prioritizes the features
+2. Scrum Master - Facilitates the process
+3. Product Backlog - Project requirements from the stakeholders
+4. Sprint Planning meeting - Meeting done by the agile team to determine what features will be done in the next sprint
+5. Sprint Backlog - Work the team selects to get done in the next sprint
+6. Sprint - Short iteration where the project team work to complete the work in the sprint backlog (1-4 weeks typically)
+7. Daily Stand-up - A quick meeting each day to discuss project status. (15 mins., usually)
+8. Sprint Review - An inspection done at the end of the sprint by the customer
+9. Retrospective - Meeting done to determine what went wrong during the sprint and what went right.
+10. Release - Several sprints worth of work directed to operations for possible rollout
+
+## eXtreme Programming (XP)
+1. <b>Core Values</b> Simplicity, Commuication, Feedback, Courage (Transparency), Respect
+2. <b>Roles</b> Coach, Customer, Programmers, Testers
+3. <b>Practices</b> Planning Activities - Release Planning, Iteration Planning, Small Releases, Collective Code Ownership, Coding Standards, Sustainable Pace, Continuous Integraion, TDD, Pair Programming, Simple Design, Refactoring
+4. Scrum and XP are not too different
+
+## Lean Development
+1. <b>Principles</b> Using visual management tools, Identify customer-defined values, Learning and continuous Improvements
+2. Elimate Waste (partially done work, delays, handoffs, unnecessary features), Empower Team, Deliver Fast, Optimize the Whole, Build Quality in, Defer Decisions, Amplify Learning
+
+# Visual Emitters 
 ## Burndown Chart
 
 ## Velocity
 
-## Kanban Flow Metrics
+## Flow Metrics
 ### WIP
 
 ### Cycle Time
