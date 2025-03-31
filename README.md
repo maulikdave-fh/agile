@@ -28,7 +28,7 @@ Agile Manifesto (4 items) -> 12 Principles of Agile Software -> Multiple Methods
 In Traditional project mgmt, Scope is fixed, Time and Cost vary. In Agile, Time and Cost are fixed, scope vary. With time and cost fixed, Agile forces you to focus on delivering the most valuable features to your customers. 
 
 # Agile Methods
-## Scrum
+## Scrum (Means Meeting)
 1. Product Owner - Designated person that represents the customer on the project. Defines & prioritizes the features
 2. Scrum Master - Facilitates the process
 3. Product Backlog - Project requirements from the stakeholders
@@ -48,21 +48,70 @@ In Traditional project mgmt, Scope is fixed, Time and Cost vary. In Agile, Time 
 
 ## Lean Development
 1. <b>Principles</b> Using visual management tools, Identify customer-defined values, Learning and continuous Improvements
-2. Elimate Waste (partially done work, delays, handoffs, unnecessary features), Empower Team, Deliver Fast, Optimize the Whole, Build Quality in, Defer Decisions, Amplify Learning
+2. Elimate Waste (partially done work, delays, handoffs, unnecessary features, extra processes, defects, task switchings), Empower Team, Deliver Fast, Optimize the Whole, Build Quality in, Defer Decisions, Amplify Learning
 
-# Visual Emitters 
+## Kanban (JP word for Signboard)
+1. Derived from Lean Development
+2. Kanban Board - Low-tech, High-touch system - white board, sticky notes
+3. Limit WIP - the team decides max. WIP
+4. <b>Core Principles</b>Visualize the Workflow - Information radiators, Limit WIP - improves visibility of issues and bottlenecks, Manage Flow, Make process policies explicit, Improve collaboration
+
+## FDD (Feature Driven Development)
+
+## Scalable Agile Framework (SAFe)
+1. Scrum at enterprise level
+2. For large global teams
+
+# Agile Tools & Techniques
+## Prioritization Techniques
+Features are prioritized based on business value, risk and dependencies
+### Simple Scheme
+1. Priority 1, Priority 2, Priority 2, etc
+2. Could be problematic as many items might become the first priority
+### MoSCoW 
+1. Must Have
+2. Should Have
+3. Could Have
+4. Would like to have, but not this time
+### Dot Voting or Multi-Voting / Monopoly Money
+1. Each person gets a certain number of dots / money to distribute to the requirements that they value the most
+
+## Deliver Value Incrementally
+
+## Minimal Viable Product
+A set of functionality that is complete to be useful, but small enough not to be an entire project - Quicker go to market -> Early feedback
+
+## Value Decomposition
+One of the techinques - Design the product box
+
+## Definition of Done
+Shared understanding of what it means when work is considered done, it should be defined at the beginning of the project. Examples; DoD for Unit & functional tests, DoD for development, DoD for a story
+
+# Information Radiators 
 ## Burndown Chart
+A graphical representation of work left to do versus time. The outstanding work (or backlog) is often on the vertical axis, with time along the horizontal. A burndown chart is a run chart of remaining work. It is useful for predicting when all of the work will be completed. 
+
+Remaining work can be represented in terms of either time or story points (a sort of arbitrary unit). Use burndown chart at sprint level, not at project level as project will have more features coming in or not all features may be estimated up-front.
 
 ## Velocity
+To help teams estimate how much work they can complete in a given time period based on how quickly similar work was previously completed. Velocity is relative measure. In other words, the raw numbers mean little; it is the trend that matters.
+
+Important for sustainable development and consistency. At least 3 sprints should be completed to get a reliable velocity.
 
 ## Flow Metrics
-### WIP
+### WIP board
+Is a visual tool, often a Kanban board, used to track and manage tasks or projects that are currently in progress, helping teams visualize workflow, limit work-in-progress, and improve efficiency. 
 
 ### Cycle Time
+Cycle time is the time it takes for a work item to move through the entire development process, from initiation to completion, including all stages like planning, coding, testing, and deployment, helping teams understand their efficiency and identify areas for improvement. It is a lagging indicator.
 
 ### Throughput
+Measures the number of completed work items (e.g., user stories, tasks) delivered within a specific period, regardless of size or complexity, helping teams assess their capacity and efficiency.
+
+While velocity focuses on the amount of work completed in story points, throughput focuses on the number of items completed, regardless of size or complexity.
 
 ### Work Item Age
+Elasped time between when a work item "started" and the current time. It is a leading indicator - relevant for non-finished items.
 
 ## Cumulative Flow Diagram (CFD)
 1. Provides insights into flow management- Number of Features / Tasks / Issues / Stories -> Timeline
@@ -71,8 +120,6 @@ In Traditional project mgmt, Scope is fixed, Time and Cost vary. In Agile, Time 
 4. Narrowing Bands - Possibly, teams have more capacity
 5. Broadening Bands - Higher WIP. May be because of dependencies.
 6. Flat curve - Possible blocker / bottleneck
-
-## LIMIT WIP
 
 # Important Terms & Concepts
 ## Project
